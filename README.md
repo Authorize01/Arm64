@@ -21,4 +21,4 @@ echo 'ref: refs/heads/master' > .git/HEAD
 
 git pull sync main
 
-git add . && git commit -m "update" && git push -u sync master && git pull sync master
+git pull sync master && git add . && git commit -m "update" && git push -u sync master
