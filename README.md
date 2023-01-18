@@ -16,3 +16,9 @@ ssh-add ls
 ssh -T git@github.com
 
 git remote add private git@github.com:Authorize01/Arm64.git
+
+echo 'ref: refs/heads/master' > .git/HEAD
+
+git pull sync main
+
+git add . && git commit -m "update" && git push -u sync master
