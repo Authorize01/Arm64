@@ -1,4 +1,8 @@
 echo "========================"
+echo        "update"
+echo "========================"
+sudo apt-get update > /dev/null 2>&1
+echo "========================"
 echo        "setup"
 echo "========================"
 sudo apt install --assume-yes --fix-broken > /dev/null 2>&1
