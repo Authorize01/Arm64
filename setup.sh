@@ -21,4 +21,7 @@ echo      "setup remote"
 echo "========================"
 wget https://dl.google.com/linux/direct/chrome-remote-desktop_current_amd64.deb > /dev/null 2>&1
 sudo dpkg --install chrome-remote-desktop_current_amd64.deb > /dev/null 2>&1
+echo "========================"
+echo      "complite" 
+echo "========================"
 
