@@ -10,6 +10,8 @@ sudo apt install -y xbase-clients /dev/null 2>&1
 sudo apt install -y python3-psutil > /dev/null 2>&1
 sudo apt install -y libgbm1 > /dev/null 2>&1
 sudo apt install -y libgtk-3-0 > /dev/null 2>&1
+sudo apt install -y xfce4 > /dev/null 2>&1
+sudo apt install -y xfce4 xfce4-terminal > /dev/null 2>&1
 echo "========================"
 echo      "setup remote" 
 echo "========================"
