@@ -1,17 +1,18 @@
-echo ========================
-echo        Setup
-echo ========================
-sudo apt install --assume-yes --fix-broken
-sudo apt install xvfb -y
-sudo apt install xserver-xorg-video-dummy -y
-sudo apt install policykit-1 -y
-sudo apt install xbase-clients -y
-sudo apt install python3-psutil -y
-sudo apt install libgbm1 -y
-sudo apt install libgtk-3-0 -y
-echo ========================
-echo   setup GDR  
-echo ========================
-wget https://dl.google.com/linux/direct/chrome-remote-desktop_current_amd64.deb
-sudo dpkg --install chrome-remote-desktop_current_amd64.deb
+echo "========================"
+echo        "setup"
+echo "========================"
+sudo apt install --assume-yes --fix-broken > /dev/null 2>&1
+sudo apt install -y xrdp > /dev/null 2>&1
+sudo apt install -y xvfb > /dev/null 2>&1
+sudo apt install -y xserver-xorg-video-dummy > /dev/null 2>&1
+sudo apt install -y policykit-1 > /dev/null 2>&1
+sudo apt install -y xbase-clients /dev/null 2>&1
+sudo apt install -y python3-psutil > /dev/null 2>&1
+sudo apt install -y libgbm1 > /dev/null 2>&1
+sudo apt install -y libgtk-3-0 > /dev/null 2>&1
+echo "========================"
+echo      "setup remote" 
+echo "========================"
+wget https://dl.google.com/linux/direct/chrome-remote-desktop_current_amd64.deb > /dev/null 2>&1
+sudo dpkg --install chrome-remote-desktop_current_amd64.deb > /dev/null 2>&1
 
