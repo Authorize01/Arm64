@@ -1,6 +1,7 @@
 echo ========================
-echo   Setup Lib  
+echo        Setup
 echo ========================
+sudo apt install --assume-yes --fix-broken
 sudo apt install xvfb -y
 sudo apt install xserver-xorg-video-dummy -y
 sudo apt install policykit-1 -y
@@ -13,4 +14,4 @@ echo   setup GDR
 echo ========================
 wget https://dl.google.com/linux/direct/chrome-remote-desktop_current_amd64.deb
 sudo dpkg --install chrome-remote-desktop_current_amd64.deb
-sudo apt install --assume-yes --fix-broken
+
